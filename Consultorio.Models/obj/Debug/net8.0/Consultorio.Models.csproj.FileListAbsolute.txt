@@ -1,0 +1,15 @@
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\bin\Debug\net8.0\Consultorio.Models.deps.json
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\bin\Debug\net8.0\Consultorio.Models.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\bin\Debug\net8.0\Consultorio.Models.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.AssemblyInfoInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.AssemblyInfo.cs
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\refint\Consultorio.Models.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\ref\Consultorio.Models.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\bin\Debug\net8.0\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\bin\Debug\net8.0\Consultorio.Entities.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consultorio.Models.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Models\obj\Debug\net8.0\Consulto.D43A6F94.Up2Date

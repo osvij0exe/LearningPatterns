@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\implementation\\practitionerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\implementation\\practitionerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\responses\\collectionbaseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\responses\\collectionbaseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\responses\\paginationbaseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\responses\\paginationbaseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\responses\\baseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\responses\\baseresponsegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FADABB8F-EA77-430B-85E7-8F3400AB3D07}|Consultorio.Repository\\Consultorio.Repository.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.repository\\errors\\practitionererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FADABB8F-EA77-430B-85E7-8F3400AB3D07}|Consultorio.Repository\\Consultorio.Repository.csproj|solutionrelative:consultorio.repository\\errors\\practitionererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F50FFD96-9F7D-4D9B-9A05-D777132586DC}|Consultorio.Entities\\Consultorio.Entities.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.entities\\domainerrors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F50FFD96-9F7D-4D9B-9A05-D777132586DC}|Consultorio.Entities\\Consultorio.Entities.csproj|solutionrelative:consultorio.entities\\domainerrors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PractitionerServices.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\PractitionerServices.cs",
+              "RelativeDocumentMoniker": "Consultorio.Services\\Implementation\\PractitionerServices.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\PractitionerServices.cs",
+              "RelativeToolTip": "Consultorio.Services\\Implementation\\PractitionerServices.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:28:50.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Responses\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "Consultorio.Models\\Responses\\BaseResponse.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T00:25:27.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollectionBaseResponseGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\CollectionBaseResponseGeneric.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Responses\\CollectionBaseResponseGeneric.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\CollectionBaseResponseGeneric.cs",
+              "RelativeToolTip": "Consultorio.Models\\Responses\\CollectionBaseResponseGeneric.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T00:06:25.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaginationBaseResponseGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\PaginationBaseResponseGeneric.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Responses\\PaginationBaseResponseGeneric.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\PaginationBaseResponseGeneric.cs",
+              "RelativeToolTip": "Consultorio.Models\\Responses\\PaginationBaseResponseGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T00:06:12.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseResponseGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\BaseResponseGeneric.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Responses\\BaseResponseGeneric.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\BaseResponseGeneric.cs",
+              "RelativeToolTip": "Consultorio.Models\\Responses\\BaseResponseGeneric.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T00:02:17.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Entities\\DomainErrors\\Error.cs",
+              "RelativeDocumentMoniker": "Consultorio.Entities\\DomainErrors\\Error.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Entities\\DomainErrors\\Error.cs",
+              "RelativeToolTip": "Consultorio.Entities\\DomainErrors\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:00:07.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PractitionerErrors.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Repository\\Errors\\PractitionerErrors.cs",
+              "RelativeDocumentMoniker": "Consultorio.Repository\\Errors\\PractitionerErrors.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Repository\\Errors\\PractitionerErrors.cs",
+              "RelativeToolTip": "Consultorio.Repository\\Errors\\PractitionerErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:57:12.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

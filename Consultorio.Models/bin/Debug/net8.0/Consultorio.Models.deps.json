@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Consultorio.Models/1.0.0": {
+        "dependencies": {
+          "Consultorio.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Consultorio.Models.dll": {}
+        }
+      },
+      "Consultorio.Entities/1.0.0": {
+        "runtime": {
+          "Consultorio.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consultorio.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Consultorio.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Repository.deps.json
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Repository.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Repository.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.AssemblyInfoInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.AssemblyInfo.cs
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\refint\Consultorio.Repository.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\ref\Consultorio.Repository.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.DataAccess.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.DataAccess.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Entities.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consulto.22693DB2.Up2Date

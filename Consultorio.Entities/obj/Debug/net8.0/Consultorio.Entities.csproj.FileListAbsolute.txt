@@ -1,0 +1,11 @@
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\bin\Debug\net8.0\Consultorio.Entities.deps.json
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\bin\Debug\net8.0\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\bin\Debug\net8.0\Consultorio.Entities.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.AssemblyInfoInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.AssemblyInfo.cs
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\refint\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\ref\Consultorio.Entities.dll

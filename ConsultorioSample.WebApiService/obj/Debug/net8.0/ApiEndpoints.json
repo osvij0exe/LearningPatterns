@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "AddPractitioner",
+    "RelativePath": "api/Practitioner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "practitionerDtoRequest",
+        "Type": "Consultorio.Models.Request.PractitionerDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "FindPractitionerById",
+    "RelativePath": "api/Practitioner/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "DeletePractitioner",
+    "RelativePath": "api/Practitioner/DeletePractitioner/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "LogicDeletePractitioner",
+    "RelativePath": "api/Practitioner/LogicDeletePractitioner/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "PractitionerList",
+    "RelativePath": "api/Practitioner/PractitionerList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "ReactivePractitioner",
+    "RelativePath": "api/Practitioner/ReacvtivePractitioner/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
+    "Method": "UpdatePractitioner",
+    "RelativePath": "api/Practitioner/UpdatePractitioner/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "practitionerResources",
+        "Type": "Consultorio.Models.Request.PractitionerDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

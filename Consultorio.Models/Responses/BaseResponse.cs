@@ -35,6 +35,7 @@ namespace Consultorio.Models.Responses
 
         public  BaseResponse IsSuccess() => new(success:true, Error.None);
         public  BaseResponse Failure(Error errorMessage) => new(success:false,error:errorMessage);
+        
 
     }
 

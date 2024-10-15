@@ -1,5 +1,6 @@
 ﻿using Consultorio.Models.Request;
 using Consultorio.Services.Interfaces;
+using ConsultorioSample.WebApiService.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsultorioSample.WebApiService.Controllers
@@ -20,7 +21,7 @@ namespace ConsultorioSample.WebApiService.Controllers
         {
             var response = await _practitionerServices.AddAsync(practitionerDtoRequest);
 
-            return response.Success ? Ok(response) : BadRequest(response);
+            return response.Success ? Ok(response) : response.ToProblemDetails();
 
 
         }
@@ -30,7 +31,7 @@ namespace ConsultorioSample.WebApiService.Controllers
         {
             var response = await _practitionerServices.FindByIdAsync(id);
 
-            return response.Success ? Ok(response) : NotFound(response);
+            return response.Success ? Ok(response) : response.ToProblemDetails();
 
 
         }

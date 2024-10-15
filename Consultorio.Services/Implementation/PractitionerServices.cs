@@ -124,7 +124,7 @@ namespace Consultorio.Services.Implementation
             catch (Exception ex)
             {
 
-                string ErrorMessage = "An error ocurrec whlie trying to find the practitioner";
+                string ErrorMessage = "An error ocurred while trying to find the practitioner";
                 _logger.LogCritical(ex, "{ErrorMessage}{Message}",ErrorMessage, ex.Message);
             }
             return response;

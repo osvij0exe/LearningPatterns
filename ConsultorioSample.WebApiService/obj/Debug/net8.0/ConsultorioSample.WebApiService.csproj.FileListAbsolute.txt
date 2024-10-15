@@ -160,3 +160,4 @@ C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\ConsultorioSampl
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\ConsultorioSample.WebApiService\bin\Debug\net8.0\Consultorio.Repository.dll
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\ConsultorioSample.WebApiService\bin\Debug\net8.0\Consultorio.Models.pdb
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\ConsultorioSample.WebApiService\bin\Debug\net8.0\Consultorio.Repository.pdb
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\ConsultorioSample.WebApiService\obj\Debug\net8.0\ConsultorioSample.WebApiService.sourcelink.json

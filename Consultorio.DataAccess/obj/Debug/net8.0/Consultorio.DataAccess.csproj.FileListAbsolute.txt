@@ -15,3 +15,4 @@ C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Data
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.DataAccess\bin\Debug\net8.0\Consultorio.Entities.dll
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.DataAccess\bin\Debug\net8.0\Consultorio.Entities.pdb
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.DataAccess\obj\Debug\net8.0\Consulto.3B34FC2A.Up2Date
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.DataAccess\obj\Debug\net8.0\Consultorio.DataAccess.sourcelink.json

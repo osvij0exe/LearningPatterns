@@ -61,7 +61,7 @@ namespace Consultorio.Services.Implementation
                 var practitioner= await FindByIdAsNoTrackingAsync(id);
                 if(!practitioner.Success)
                 {
-                    return response.Failure(PractitionerErrors.NotFound);
+                    return response.Failure(PractitionerErrors.NotFound(id));
                 }
 
                 _practitionerUnitOfWork.PractitionerRepository.Delete(_mapper.Map<Practitioner>(practitioner.Data)); 
@@ -86,7 +86,7 @@ namespace Consultorio.Services.Implementation
                 var practitioner = await _practitionerUnitOfWork.PractitionerRepository.FindByIdAsNoTrackingAsync(id);
                 if (practitioner is null)
                 {
-                    response.Failure(sucess: false, errorMessage: PractitionerErrors.NotFound);
+                    response.Failure(sucess: false, errorMessage: PractitionerErrors.NotFound(id));
                 }
 
                 response.IsSucess(sucess: true, data: _mapper.Map<PractitionerDtoResponse>(practitioner));
@@ -111,7 +111,7 @@ namespace Consultorio.Services.Implementation
                 var practitioner = await _practitionerUnitOfWork.PractitionerRepository.FindByIdAsync(id);
                 if (practitioner is null)
                 {
-                    return response.Failure(sucess: true,errorMessage:PractitionerErrors.NotFound);
+                    return response.Failure(sucess: true,errorMessage:PractitionerErrors.NotFound(id));
                    
                 }
 
@@ -163,7 +163,7 @@ namespace Consultorio.Services.Implementation
                 var practitioner = await FindByIdAsync(id);
                 if (!practitioner.Success)
                 {
-                    return response.Failure(errorMessage: PractitionerErrors.NotFound);
+                    return response.Failure(errorMessage: PractitionerErrors.NotFound(id));
                 }
 
                 await _practitionerUnitOfWork.PractitionerRepository.LogicDelete(id);
@@ -212,7 +212,7 @@ namespace Consultorio.Services.Implementation
                 var practitioner = await _practitionerUnitOfWork.PractitionerRepository.FindByIdAsync(id);
                 if (practitioner is null)
                 {
-                    return response.Failure(errorMessage:PractitionerErrors.NotFound);
+                    return response.Failure(errorMessage:PractitionerErrors.NotFound(id));
                 }
                 var practitionerUpdated = _mapper.Map(practitionerResources, practitioner);
                 _practitionerUnitOfWork.PractitionerRepository.Update(practitionerUpdated);

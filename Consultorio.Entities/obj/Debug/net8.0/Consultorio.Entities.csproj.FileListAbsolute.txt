@@ -9,3 +9,4 @@ C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Enti
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\refint\Consultorio.Entities.dll
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.pdb
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\ref\Consultorio.Entities.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Entities\obj\Debug\net8.0\Consultorio.Entities.sourcelink.json

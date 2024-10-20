@@ -1,5 +1,116 @@
 [
   {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "AddPetient",
+    "RelativePath": "api/patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientRequest",
+        "Type": "Consultorio.Models.Request.PatientDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "FindPetientById",
+    "RelativePath": "api/patient/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "Delete",
+    "RelativePath": "api/patient/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "GetPatientsList",
+    "RelativePath": "api/patient/GetPatientList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "LogicDeletePatient",
+    "RelativePath": "api/patient/LogicDelete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "ReactivePatient",
+    "RelativePath": "api/patient/Reactive/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
+    "Method": "UpdatePatient",
+    "RelativePath": "api/patient/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "patientResources",
+        "Type": "Consultorio.Models.Request.PatientDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ConsultorioSample.WebApiService.Controllers.PractitionerController",
     "Method": "AddPractitioner",
     "RelativePath": "api/Practitioner",

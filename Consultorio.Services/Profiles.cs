@@ -16,6 +16,9 @@ namespace Consultorio.Services
         {
             CreateMap<PractitionerDtoRequest, Practitioner>();
             CreateMap<Practitioner, PractitionerDtoResponse>().ReverseMap();
+
+            CreateMap<PatientDtoRequest, Patient>();
+            CreateMap<Patient, PatientDtoResponse>().ReverseMap();
         }
     }
 }

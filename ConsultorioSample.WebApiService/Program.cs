@@ -1,6 +1,7 @@
 using Consultorio.DataAccess;
 using Consultorio.Repository.Implementation;
 using Consultorio.Repository.Interfaces;
+using Consultorio.Repository.UnitOfWork.Implementation;
 using Consultorio.Repository.UnitOfWork.Interfaces;
 using Consultorio.Services;
 using Consultorio.Services.Implementation;
@@ -30,12 +31,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 builder.Services.AddScoped<IPractitionerServices, PractitionerServices>();
-
+builder.Services.AddScoped<IPatientServices, PatientServices>();
 
 builder.Services.AddScoped<IPractitionerRepository,PractitionerRepository>();
+builder.Services.AddScoped<IPatientRepository,PatientRepository>();
 
 builder.Services.AddScoped<PractitionerUnitOfWork>();
-
+builder.Services.AddScoped<PatientUnitOfWork>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

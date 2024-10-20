@@ -33,7 +33,7 @@ namespace Consultorio.Models.Responses
         
         public Error Error { get; } = default!;
 
-        public  BaseResponse IsSuccess() => new(success:true, Error.None);
+        public  BaseResponse IsSuccess(bool succes) => new(success:true, Error.None);
         public  BaseResponse Failure(Error errorMessage) => new(success:false,error:errorMessage);
         
 

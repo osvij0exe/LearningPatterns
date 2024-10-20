@@ -66,7 +66,7 @@ namespace Consultorio.Services.Implementation
 
                 _practitionerUnitOfWork.PractitionerRepository.Delete(_mapper.Map<Practitioner>(practitioner.Data)); 
                 await _practitionerUnitOfWork.CommitAsync();
-                
+                response.IsSuccess(succes: response.Success = true);
             }
             catch (Exception ex)
             {
@@ -74,7 +74,7 @@ namespace Consultorio.Services.Implementation
                 string ErrorMessage = "An error ocurred while trying to delete the practitioenr";
                 _logger.LogCritical(ex, "{ErrorMessage}{Message}", ErrorMessage, ex.Message);
             }
-            return response.IsSuccess();
+            return response;
         }
 
         public async Task<BaseResponseGeneric<PractitionerDtoResponse>> FindByIdAsNoTrackingAsync(Guid id)
@@ -139,7 +139,7 @@ namespace Consultorio.Services.Implementation
                 var practitionersList = await _practitionerUnitOfWork.PractitionerRepository.ListAsync();
 
 
-                resposne.ISuccess(sucess: false, data: resposne.Data = _mapper.Map<ICollection<PractitionerDtoResponse>>(practitionersList));
+                resposne.ISuccess(sucess: true, data: resposne.Data = _mapper.Map<ICollection<PractitionerDtoResponse>>(practitionersList));
 
 
 
@@ -176,7 +176,7 @@ namespace Consultorio.Services.Implementation
                 string ErrorMessage = "An error ocurred while trying to delete the practitioenr";
                 _logger.LogCritical(ex, "{ErrorMessage}{Message}", ErrorMessage, ex.Message);
             }
-            return response.IsSuccess();
+            return response.IsSuccess(succes: response.Success = true);
         }
 
         public async Task<BaseResponse> ReactiveAsync(Guid id)
@@ -217,7 +217,7 @@ namespace Consultorio.Services.Implementation
                 var practitionerUpdated = _mapper.Map(practitionerResources, practitioner);
                 _practitionerUnitOfWork.PractitionerRepository.Update(practitionerUpdated);
                 await _practitionerUnitOfWork.CommitAsync();
-
+                response.IsSuccess(succes: response.Success = true);
 
             }
             catch (Exception ex)
@@ -226,7 +226,7 @@ namespace Consultorio.Services.Implementation
                 string ErrorMessage = "An error ocurred while trying to reactive the practitioner";
                 _logger.LogCritical(ex, "{ErrorMessage}{Message}", ErrorMessage, ex.Message);
             }
-            return response.IsSuccess();
+            return response;
         }
     }
 }

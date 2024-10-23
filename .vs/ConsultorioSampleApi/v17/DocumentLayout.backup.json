@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\implementation\\consultaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\implementation\\consultaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultoriosample.webapiservice\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|solutionrelative:consultoriosample.webapiservice\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\responses\\consultorioditeilsdtorepsosne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\responses\\consultorioditeilsdtorepsosne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\interfaces\\iconsultaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\interfaces\\iconsultaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\implementation\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\implementation\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,77 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 297,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsultaController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Controllers\\ConsultaController.cs",
-              "RelativeDocumentMoniker": "ConsultorioSample.WebApiService\\Controllers\\ConsultaController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Controllers\\ConsultaController.cs",
-              "RelativeToolTip": "ConsultorioSample.WebApiService\\Controllers\\ConsultaController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwv0AAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:44:22.35Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsultorioDiteilsDtoRepsosne.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\ConsultorioDiteilsDtoRepsosne.cs",
-              "RelativeDocumentMoniker": "Consultorio.Models\\Responses\\ConsultorioDiteilsDtoRepsosne.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Responses\\ConsultorioDiteilsDtoRepsosne.cs",
-              "RelativeToolTip": "Consultorio.Models\\Responses\\ConsultorioDiteilsDtoRepsosne.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T04:25:16.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IConsultaServices.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IConsultaServices.cs",
-              "RelativeDocumentMoniker": "Consultorio.Services\\Interfaces\\IConsultaServices.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IConsultaServices.cs",
-              "RelativeToolTip": "Consultorio.Services\\Interfaces\\IConsultaServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA/wBUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:48:24.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientServices.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\PatientServices.cs",
-              "RelativeDocumentMoniker": "Consultorio.Services\\Implementation\\PatientServices.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\PatientServices.cs",
-              "RelativeToolTip": "Consultorio.Services\\Implementation\\PatientServices.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:47:20.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsultaServices.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\ConsultaServices.cs",
-              "RelativeDocumentMoniker": "Consultorio.Services\\Implementation\\ConsultaServices.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\ConsultaServices.cs",
-              "RelativeToolTip": "Consultorio.Services\\Implementation\\ConsultaServices.cs",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAAAEEBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T02:36:35.41Z",
-              "EditorCaption": ""
             }
           ]
         }

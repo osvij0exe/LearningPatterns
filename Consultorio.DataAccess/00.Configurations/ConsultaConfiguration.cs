@@ -18,13 +18,13 @@ namespace Consultorio.DataAccess._00.Configurations
                 .IsRequired();
             builder.Property(c => c.UpdatedDate);
             builder.Property(c => c.BeginingScheduleHour)
-                .HasColumnType("Date")
                 .IsRequired();
             builder.Property(c => c.EndingScheduleHour)
-                .HasColumnType("Date")
                 .IsRequired();
             builder.Property(c => c.ScheduleDay)
                 .HasColumnType("Date")
+                .IsRequired();
+            builder.Property(c => c.Appoinmentlength)
                 .IsRequired();
             builder.Property(c => c.PractitionerId)
                 .IsRequired();

@@ -21,7 +21,7 @@ namespace Consultorio.Models.Responses
 
 
         public CollectionBaseResponseGeneric<ICollection<T>> ISuccess(bool sucess, ICollection<T> data) => new CollectionBaseResponseGeneric<ICollection<T>>(sucess: sucess,data:data);
-
+        public CollectionBaseResponseGeneric<T> Failure(bool sucess, Error errorMessage) => new(sucess: false, error: errorMessage);
     }
 
 }

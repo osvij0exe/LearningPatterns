@@ -31,8 +31,11 @@ namespace Consultorio.DataAccess.Migrations
                     b.Property<bool>("Active")
                         .HasColumnType("bit");
 
+                    b.Property<DateTime>("Appoinmentlength")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("BeginingScheduleHour")
-                        .HasColumnType("Date");
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("ConsultorioId")
                         .HasColumnType("uniqueidentifier");
@@ -41,7 +44,7 @@ namespace Consultorio.DataAccess.Migrations
                         .HasColumnType("Date");
 
                     b.Property<DateTime>("EndingScheduleHour")
-                        .HasColumnType("Date");
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uniqueidentifier");
@@ -96,7 +99,7 @@ namespace Consultorio.DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("2ddb8d8e-09f0-47a3-af09-390fb70df5cb"),
+                            Id = new Guid("3c333613-cd70-4803-8e82-402595e0151c"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 1,
@@ -104,7 +107,7 @@ namespace Consultorio.DataAccess.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8b599cb7-1498-4516-b997-7ad59c2e80c2"),
+                            Id = new Guid("5f511477-9635-4c74-a0c8-966cb664e3aa"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 2,
@@ -112,7 +115,7 @@ namespace Consultorio.DataAccess.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8a97343d-813b-4ef9-8df2-6d254f052736"),
+                            Id = new Guid("a21307c2-9901-4afd-adeb-2bdff72ce139"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 3,

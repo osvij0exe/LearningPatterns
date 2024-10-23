@@ -9,7 +9,8 @@
       "Consultorio.Repository/1.0.0": {
         "dependencies": {
           "Consultorio.DataAccess": "1.0.0",
-          "Consultorio.Entities": "1.0.0"
+          "Consultorio.Entities": "1.0.0",
+          "Consultorio.Models": "1.0.0"
         },
         "runtime": {
           "Consultorio.Repository.dll": {}
@@ -581,6 +582,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Consultorio.Models/1.0.0": {
+        "dependencies": {
+          "Consultorio.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Consultorio.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -981,6 +993,11 @@
       "sha512": ""
     },
     "Consultorio.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Consultorio.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

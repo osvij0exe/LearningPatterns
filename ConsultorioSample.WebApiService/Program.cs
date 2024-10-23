@@ -32,12 +32,17 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IPractitionerServices, PractitionerServices>();
 builder.Services.AddScoped<IPatientServices, PatientServices>();
+builder.Services.AddScoped<IConsultaServices, ConsultaServices>();
 
 builder.Services.AddScoped<IPractitionerRepository,PractitionerRepository>();
 builder.Services.AddScoped<IPatientRepository,PatientRepository>();
+builder.Services.AddScoped<IConsultorioRespository,ConsultorioRepository>();
+builder.Services.AddScoped<IConsultaRepository, ConsultaRepository>();
 
 builder.Services.AddScoped<PractitionerUnitOfWork>();
 builder.Services.AddScoped<PatientUnitOfWork>();
+builder.Services.AddScoped<ConsultaUnitOfWork>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

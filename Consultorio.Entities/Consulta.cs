@@ -11,6 +11,7 @@ namespace Consultorio.Entities
         public DateTime ScheduleDay { get; set; }
         public DateTime BeginingScheduleHour { get; set; }
         public DateTime EndingScheduleHour { get; set; }
+        public DateTime Appoinmentlength { get; set; }
         public Guid PractitionerId { get; set; }
         public Practitioner Practitioner { get; set; } = default!;
         public Guid PatientId { get; set; }

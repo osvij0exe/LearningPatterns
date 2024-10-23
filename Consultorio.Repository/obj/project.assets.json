@@ -1012,6 +1012,19 @@
         "runtime": {
           "bin/placeholder/Consultorio.Entities.dll": {}
         }
+      },
+      "Consultorio.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Consultorio.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Consultorio.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Consultorio.Models.dll": {}
+        }
       }
     }
   },
@@ -2776,12 +2789,18 @@
       "type": "project",
       "path": "../Consultorio.Entities/Consultorio.Entities.csproj",
       "msbuildProject": "../Consultorio.Entities/Consultorio.Entities.csproj"
+    },
+    "Consultorio.Models/1.0.0": {
+      "type": "project",
+      "path": "../Consultorio.Models/Consultorio.Models.csproj",
+      "msbuildProject": "../Consultorio.Models/Consultorio.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Consultorio.DataAccess >= 1.0.0",
-      "Consultorio.Entities >= 1.0.0"
+      "Consultorio.Entities >= 1.0.0",
+      "Consultorio.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2822,6 +2841,9 @@
             },
             "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Entities\\Consultorio.Entities.csproj": {
               "projectPath": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Entities\\Consultorio.Entities.csproj"
+            },
+            "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Consultorio.Models.csproj": {
+              "projectPath": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Consultorio.Models.csproj"
             }
           }
         }

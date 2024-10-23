@@ -1,5 +1,132 @@
 [
   {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "AddConsulta",
+    "RelativePath": "api/consulta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "consultaDtoRequest",
+        "Type": "Consultorio.Models.Request.ConsultaDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetApoinments",
+    "RelativePath": "api/consulta/Apoinments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetApoinmentById",
+    "RelativePath": "api/consulta/Apoinments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetApoinmentById",
+    "RelativePath": "api/consulta/Apoinments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "consultaRsources",
+        "Type": "Consultorio.Models.Request.ConsultaDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "DeleteApoinmentById",
+    "RelativePath": "api/consulta/Apoinments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetConsultorioApoinments",
+    "RelativePath": "api/consulta/consultorioApoinments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "consultorioId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetPateintApoinments",
+    "RelativePath": "api/consulta/patientApoinments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.ConsultaController",
+    "Method": "GetPractitionerApoinments",
+    "RelativePath": "api/consulta/practitionerApoinments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "practitionerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ConsultorioSample.WebApiService.Controllers.PatientController",
     "Method": "AddPetient",
     "RelativePath": "api/patient",

@@ -608,7 +608,8 @@
       "Consultorio.Repository/1.0.0": {
         "dependencies": {
           "Consultorio.DataAccess": "1.0.0",
-          "Consultorio.Entities": "1.0.0"
+          "Consultorio.Entities": "1.0.0",
+          "Consultorio.Models": "1.0.0"
         },
         "runtime": {
           "Consultorio.Repository.dll": {

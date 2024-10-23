@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Consultorio.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d75dad2a27b3f1b2a19b048ec314938a5785dd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c996b083a3ec9a56a74eace042832f4b035d515")]
 [assembly: System.Reflection.AssemblyProductAttribute("Consultorio.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Consultorio.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Consultorio.DataAccess\Consultorio.DataAccess.csproj" />
     <ProjectReference Include="..\Consultorio.Entities\Consultorio.Entities.csproj" />
+    <ProjectReference Include="..\Consultorio.Models\Consultorio.Models.csproj" />
   </ItemGroup>
 
 </Project>

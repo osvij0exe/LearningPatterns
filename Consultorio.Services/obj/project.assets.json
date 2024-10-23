@@ -1047,7 +1047,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Consultorio.DataAccess": "1.0.0",
-          "Consultorio.Entities": "1.0.0"
+          "Consultorio.Entities": "1.0.0",
+          "Consultorio.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Consultorio.Repository.dll": {}

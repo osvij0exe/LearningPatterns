@@ -16,3 +16,5 @@ C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repo
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Entities.pdb
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consulto.22693DB2.Up2Date
 C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\obj\Debug\net8.0\Consultorio.Repository.sourcelink.json
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Models.dll
+C:\Users\VICTUS\Desktop\proyectos c#\.net8\ConsultorioSampleApi\Consultorio.Repository\bin\Debug\net8.0\Consultorio.Models.pdb

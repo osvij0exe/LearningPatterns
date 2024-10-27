@@ -36,8 +36,8 @@ namespace Consultorio.Entities.DomainErrors
         /// <returns></returns>
 
         public static Error Validation(string code, string description) => new(code, description, ErrorType.Validation);//otra forma de implementar el constrcutor
-
         public static Error Conflict(string code, string description) => new(code,description, ErrorType.Conflict);
+        public static Error BadRequest(string code, string description) => new(code,description, ErrorType.BadRequest);
         public static Error Exception(string code, string description) => new(code,description, ErrorType.Exception);
         public static Error Failure(string code, string description) => new(code,description, ErrorType.Failure);
 

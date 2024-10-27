@@ -12,6 +12,7 @@ namespace Consultorio.Entities.DomainErrors
         Validation = 1,
         NotFound = 2,
         Conflict = 3,
-        Exception = 4
+        Exception = 4,
+        BadRequest = 5
     }
 }

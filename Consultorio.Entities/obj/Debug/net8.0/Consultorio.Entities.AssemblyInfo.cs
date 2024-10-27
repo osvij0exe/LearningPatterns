@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Consultorio.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c996b083a3ec9a56a74eace042832f4b035d515")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b686009148a0f0ee0271a49ec5dad6aa3a11dd19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Consultorio.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Consultorio.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

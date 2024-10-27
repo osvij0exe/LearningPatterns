@@ -99,7 +99,7 @@ namespace Consultorio.DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3c333613-cd70-4803-8e82-402595e0151c"),
+                            Id = new Guid("39017484-9b5a-406b-a8cd-f62d9a60b46e"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 1,
@@ -107,7 +107,7 @@ namespace Consultorio.DataAccess.Migrations
                         },
                         new
                         {
-                            Id = new Guid("5f511477-9635-4c74-a0c8-966cb664e3aa"),
+                            Id = new Guid("500e8c7a-5b2c-4dd7-9728-e9cc9f4d4eb7"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 2,
@@ -115,7 +115,7 @@ namespace Consultorio.DataAccess.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a21307c2-9901-4afd-adeb-2bdff72ce139"),
+                            Id = new Guid("b9002d5c-415c-419c-a9da-0ac6f6b88243"),
                             Active = true,
                             CreationDate = new DateTime(2024, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MedicalOficceNumber = 3,

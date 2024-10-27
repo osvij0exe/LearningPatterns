@@ -347,5 +347,69 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDtoRequest",
+        "Type": "Consultorio.Models.Users.LoginDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/user/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUserDto",
+        "Type": "Consultorio.Models.Users.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/user/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Consultorio.Models.Users.ResetPasswordDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
+    "Method": "SendTokenToResetUserPassword",
+    "RelativePath": "api/user/SendTokenToResetUserPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Consultorio.Models.Users.GenerateTokenToResetPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\implementation\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\implementation\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\users\\changepassworddtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\users\\changepassworddtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultoriosample.webapiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|solutionrelative:consultoriosample.webapiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultoriosample.webapiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|solutionrelative:consultoriosample.webapiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\interfaces\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\interfaces\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2545C71C-B06C-417E-A6A9-50E78F54D4EE}|Consultorio.Models\\Consultorio.Models.csproj|solutionrelative:consultorio.models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultoriosample.webapiservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE9D01BD-60DD-403E-A8DD-2C0623064D9C}|ConsultorioSample.WebApiService\\ConsultorioSample.WebApiService.csproj|solutionrelative:consultoriosample.webapiservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.services\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AF774F-9CEB-459C-A389-A7F2EDE4016E}|Consultorio.Services\\Consultorio.Services.csproj|solutionrelative:consultorio.services\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FADABB8F-EA77-430B-85E7-8F3400AB3D07}|Consultorio.Repository\\Consultorio.Repository.csproj|c:\\users\\victus\\desktop\\proyectos c#\\.net8\\consultoriosampleapi\\consultorio.repository\\errors\\usererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FADABB8F-EA77-430B-85E7-8F3400AB3D07}|Consultorio.Repository\\Consultorio.Repository.csproj|solutionrelative:consultorio.repository\\errors\\usererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +50,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 297,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePasswordDtoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Users\\ChangePasswordDtoRequest.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Users\\ChangePasswordDtoRequest.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Users\\ChangePasswordDtoRequest.cs",
+              "RelativeToolTip": "Consultorio.Models\\Users\\ChangePasswordDtoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T07:44:04.983Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Appsettings.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Appsettings.cs",
+              "RelativeDocumentMoniker": "Consultorio.Models\\Appsettings.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Models\\Appsettings.cs",
+              "RelativeToolTip": "Consultorio.Models\\Appsettings.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:56:51.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ConsultorioSample.WebApiService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\appsettings.Development.json",
+              "RelativeToolTip": "ConsultorioSample.WebApiService\\appsettings.Development.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAywBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T05:40:39.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ConsultorioSample.WebApiService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ConsultorioSample.WebApiService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T23:02:57.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Program.cs",
+              "RelativeDocumentMoniker": "ConsultorioSample.WebApiService\\Program.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\ConsultorioSample.WebApiService\\Program.cs",
+              "RelativeToolTip": "ConsultorioSample.WebApiService\\Program.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAGYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:13:40.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserErrors.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Repository\\Errors\\UserErrors.cs",
+              "RelativeDocumentMoniker": "Consultorio.Repository\\Errors\\UserErrors.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Repository\\Errors\\UserErrors.cs",
+              "RelativeToolTip": "Consultorio.Repository\\Errors\\UserErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:58:00.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\EmailService.cs",
+              "RelativeDocumentMoniker": "Consultorio.Services\\Implementation\\EmailService.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\EmailService.cs",
+              "RelativeToolTip": "Consultorio.Services\\Implementation\\EmailService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:52:14.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IEmailServices.cs",
+              "RelativeDocumentMoniker": "Consultorio.Services\\Interfaces\\IEmailServices.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IEmailServices.cs",
+              "RelativeToolTip": "Consultorio.Services\\Interfaces\\IEmailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:51:20.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\UserServices.cs",
+              "RelativeDocumentMoniker": "Consultorio.Services\\Implementation\\UserServices.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Implementation\\UserServices.cs",
+              "RelativeToolTip": "Consultorio.Services\\Implementation\\UserServices.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:49:01.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Consultorio.Services\\Interfaces\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\proyectos c#\\.net8\\ConsultorioSampleApi\\Consultorio.Services\\Interfaces\\IUserServices.cs",
+              "RelativeToolTip": "Consultorio.Services\\Interfaces\\IUserServices.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:47:00.76Z",
+              "EditorCaption": ""
             }
           ]
         }

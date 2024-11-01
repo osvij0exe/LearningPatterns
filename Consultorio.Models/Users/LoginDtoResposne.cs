@@ -21,7 +21,7 @@ namespace Consultorio.Models.Users
         {
             
         }
-        public LoginDtoResposne(bool success,string givenName,string token)
+        public LoginDtoResposne(bool success,string givenName,IList<string> roles,string token)
             :base(success)
         {
             
@@ -29,10 +29,11 @@ namespace Consultorio.Models.Users
 
         public string GivenName { get; set; } = default!;
         public string Token { get; set; } = default!;
+        public IList<string> Roles { get; set; }
 
 
-        public LoginDtoResposne IsSucess(bool success,string GivenName,string Toeken )
-            => new(success: true,givenName:GivenName, token:Token);
+        public LoginDtoResposne IsSucess(bool success,string givenName,IList<string> roles,string token )
+            => new(success: true,givenName: GivenName, roles: Roles, token: Token);
 
         public LoginDtoResposne Failure(bool sucess, Error errorMessage)
             => new(success: false, error: errorMessage);

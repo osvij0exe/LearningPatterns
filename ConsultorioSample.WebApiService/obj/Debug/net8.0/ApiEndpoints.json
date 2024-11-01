@@ -350,6 +350,22 @@
   },
   {
     "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
+    "Method": "ChangPassword",
+    "RelativePath": "api/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Consultorio.Models.Users.ChangePasswordDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSample.WebApiService.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/user/login",
     "HttpMethod": "POST",

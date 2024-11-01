@@ -150,7 +150,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-using (var scope = app.Services.CreateAsyncScope())
+using (var scope = app.Services.CreateScope())
 {
     await UserDataSeeder.Seed(scope.ServiceProvider);
 }

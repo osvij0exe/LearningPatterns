@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Consultorio.Entities.Security
+namespace Consultorio.DataAccess.Users
 {
     public class Constantes
     {
-        public const string AdminRol = "Admin";
-        public const string PhysicianRol = "physician";
-        public const string PatientRol = "Patient";
+        public const string AdminRol = "AdminRol";
+        public const string PatientRol = "PatientRol";
+        public const string PractitionerRol = "PractitionerRol";
         public const string ClerkRol = "Clerk";
+
     }
 }

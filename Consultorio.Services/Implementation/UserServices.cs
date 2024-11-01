@@ -105,6 +105,7 @@ namespace Consultorio.Services.Implementation
                     new Claim(ClaimTypes.Expiration, fechaExpiracion.ToLongDateString()),
                 };
                 claims.AddRange(roles.Select(x => new Claim(ClaimTypes.Role, x)));
+                response.Roles = roles;
 
                 //Creamos el JWT
                 var llaversimetrica = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.Value.Jwt.SecretKey));
@@ -114,17 +115,21 @@ namespace Consultorio.Services.Implementation
 
                 var payload = new JwtPayload(
                     issuer:_options.Value.Jwt.Emisor,
-                    audience:_options.Value.Jwt.Emisor,
+                    audience:_options.Value.Jwt.Audiencia,
                     notBefore: DateTime.Now,
                     claims: claims,
                     expires: fechaExpiracion);
 
+                
+
                 var token = new JwtSecurityToken(header,payload);
                 response.Token = new JwtSecurityTokenHandler().WriteToken(token);
                 response.GivenName = identtiy.GivenName;
+
                 response.IsSucess(success: response.Success = true,
-                    GivenName:response.GivenName,
-                    Toeken:response.Token);
+                    givenName:response.GivenName,
+                    roles:response.Roles,
+                    token:response.Token);
 
             }
             catch (Exception ex)
@@ -151,10 +156,11 @@ namespace Consultorio.Services.Implementation
                 };
 
                 var result = await _userManager.CreateAsync(user, request.Password);
+                
                 if (result.Succeeded)
                 {
-                    // todo por implementar  Roles
-
+                    // todo por implementar Roles distintos
+                    await _userManager.AddToRoleAsync(user, Constantes.PatientRol);
 
                     //Todo envio de email ejemplo
                     //await _emailServices.SendEmailAsync(request.Email, "Imss - System", $"<strong><p>Felicidades!,{request.GivenName} {request.FamilyName}</p></strong>br />" +

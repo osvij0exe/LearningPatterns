@@ -2,6 +2,7 @@
 using Consultorio.Models.Responses;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace Consultorio.Models.Users
         {
             
         }
-        public LoginDtoResposne(bool success,string givenName,IList<string> roles,string token)
+        public LoginDtoResposne(bool success,string givenName,IList<string>? roles,string token)
             :base(success)
         {
             
@@ -29,7 +30,7 @@ namespace Consultorio.Models.Users
 
         public string GivenName { get; set; } = default!;
         public string Token { get; set; } = default!;
-        public IList<string> Roles { get; set; }
+        public IList<string>? Roles { get; set; }
 
 
         public LoginDtoResposne IsSucess(bool success,string givenName,IList<string> roles,string token )

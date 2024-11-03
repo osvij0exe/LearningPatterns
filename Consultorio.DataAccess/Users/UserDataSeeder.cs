@@ -1,4 +1,4 @@
-﻿using Consultorio.Entities.Security;
+﻿
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using System;

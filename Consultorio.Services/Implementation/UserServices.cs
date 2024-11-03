@@ -1,6 +1,7 @@
-﻿using Consultorio.DataAccess.Users;
+﻿using Azure;
+using Azure.Core;
+using Consultorio.DataAccess.Users;
 using Consultorio.Entities.DomainErrors;
-using Consultorio.Entities.Security;
 using Consultorio.Models;
 using Consultorio.Models.Responses;
 using Consultorio.Models.Users;
@@ -20,16 +21,19 @@ namespace Consultorio.Services.Implementation
     public class UserServices : IUserServices
     {
         private readonly UserManager<ConsultorioUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ILogger<UserServices> _logger;
         private readonly IOptions<Appsettings> _options;
         private readonly IEmailServices _emailServices;
 
         public UserServices(UserManager<ConsultorioUser> userManager,
+            RoleManager<IdentityRole> roleManager, 
             ILogger<UserServices> logger,
             IOptions<Appsettings> options, 
             IEmailServices emailServices)
         {
             _userManager = userManager;
+            _roleManager = roleManager;
             _logger = logger;
             _options = options;
             _emailServices = emailServices;
@@ -63,7 +67,7 @@ namespace Consultorio.Services.Implementation
                     await _emailServices.SendEmailAsync(email, "Imss - Cambio de password succeeded", $"{email} Your password was reset succeeded");
                 }
                 response.IsSuccess(succes: response.Success = true);
-
+                
 
             }
             catch (Exception ex)
@@ -96,7 +100,7 @@ namespace Consultorio.Services.Implementation
                 }
                 var roles = await _userManager.GetRolesAsync(identtiy);
                 var fechaExpiracion = DateTime.Now.AddDays(1);
-
+                
                 //creating claims
                 var claims = new List<Claim>
                 {
@@ -156,11 +160,24 @@ namespace Consultorio.Services.Implementation
                 };
 
                 var result = await _userManager.CreateAsync(user, request.Password);
-                
+
                 if (result.Succeeded)
                 {
                     // todo por implementar Roles distintos
-                    await _userManager.AddToRoleAsync(user, Constantes.PatientRol);
+
+                    var role = await _roleManager.FindByIdAsync(request.UserRoleId);
+                    if (role is null)
+                    {
+                        return response.Failure(UserErrors.RoleBadRequest());
+                    }
+                    var roleExist = await _roleManager.RoleExistsAsync(role.Name!);
+                    if (!roleExist)
+                    {
+                        return response.Failure(UserErrors.RoleBadRequest());
+
+                    }
+
+                    await _userManager.AddToRoleAsync(user,role.Name!);
 
                     //Todo envio de email ejemplo
                     //await _emailServices.SendEmailAsync(request.Email, "Imss - System", $"<strong><p>Felicidades!,{request.GivenName} {request.FamilyName}</p></strong>br />" +
@@ -230,7 +247,7 @@ namespace Consultorio.Services.Implementation
             return response;
         }
 
-        public async Task<BaseResponse> SendTokenToResetPasswordAsync(GenerateTokenToResetPassword request
+        public async Task<BaseResponse> SendTokenToResetPasswordAsync(GenerateTokenToDtoRequest request
             )
         {
             var resposne = new BaseResponse();
@@ -266,6 +283,119 @@ namespace Consultorio.Services.Implementation
                 _logger.LogCritical(ex, "{ErrorMessage}{Message}", ErrorMessage, ex.Message);
             }
             return resposne;
+        }
+
+        
+        //TODO: TO implement Two factor Atuh
+
+        public async Task<TwoFactorAuthenticationTokenDtoResponse> TwoFactorAuthenticationTokenAsync(GenerateTokenToDtoRequest request)
+        {
+            var response = new TwoFactorAuthenticationTokenDtoResponse();
+            try
+            {
+                var email = await _userManager.FindByEmailAsync(request.Email);
+                
+                if(email is null)
+                {
+                    return response.Failure(success: false, errorMessage: UserErrors.NotFound(request.Email));   
+                }
+                var user = await _userManager.FindByNameAsync(request.Usuario);
+                if (user is null)
+                {
+                    return response.Failure(success: false, errorMessage: UserErrors.NotFound(request.Usuario));
+
+                }
+
+                await _userManager.ResetAuthenticatorKeyAsync(user);
+
+                var tokenGenerated = await _userManager.GetAuthenticatorKeyAsync(user);
+                if(tokenGenerated is null)
+                {
+                    return response.Failure(success: false, UserErrors.GetTokenfailed());
+                }
+
+                response.IsSuccess(success:true,token:tokenGenerated);
+                
+
+
+            }
+            catch (Exception ex)
+            {
+                //TODO: implentar exeptions
+                throw;
+            }
+            return response;
+        }
+
+        //TODO: TO implement Two factor Atuh
+        public async Task<BaseResponse> EnableAuthenticatorAsync(EnableAuthenticatorCodeDtoRequest request)
+        {
+            var response = new BaseResponse();
+            try
+            {
+                var email = await _userManager.FindByEmailAsync(request.Email);
+
+                if (email is null)
+                {
+                    return response.Failure(UserErrors.NotFound(request.Email));
+                }
+                var user = await _userManager.FindByNameAsync(request.Usuario);
+                if (user is null)
+                {
+                    return response.Failure(UserErrors.NotFound(request.Usuario));
+
+                }
+
+                var succeded = await _userManager.VerifyTwoFactorTokenAsync(user, _userManager.Options.Tokens.AuthenticatorTokenProvider, token: request.CodeProvided);
+
+                if(!succeded)
+                {
+                    return response.Failure(UserErrors.VerifyTwoFactorTokenFailed());
+                }
+
+                await _userManager.SetTwoFactorEnabledAsync(user, true);
+
+                response.IsSuccess(succes: response.Success = succeded);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return response;
+
+        }
+        //TODO: TO implement Two factor Atuh
+        public async Task<BaseResponse> DesableTwoFactorAuthenticatorAsync(DesableTwoFactorAuthDtoRequest request)
+        {
+            var response = new BaseResponse();
+            try
+            {
+                var email = await _userManager.FindByEmailAsync(request.Email);
+
+                if (email is null)
+                {
+                    return response.Failure(UserErrors.NotFound(request.Email));
+                }
+                var user = await _userManager.FindByNameAsync(request.Usuario);
+                if (user is null)
+                {
+                    return response.Failure(UserErrors.NotFound(request.Usuario));
+                }
+
+
+                await _userManager.SetTwoFactorEnabledAsync(user, false);
+
+                response.IsSuccess(succes: response.Success = true);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return response;
         }
     }
 }

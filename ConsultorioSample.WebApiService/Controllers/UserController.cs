@@ -40,7 +40,7 @@ namespace ConsultorioSample.WebApiService.Controllers
 
         }
         [HttpPost("SendTokenToResetUserPassword")]
-        public async Task<IActionResult> SendTokenToResetUserPassword(GenerateTokenToResetPassword request)
+        public async Task<IActionResult> SendTokenToResetUserPassword(GenerateTokenToDtoRequest request)
         {
             var response = await _services.SendTokenToResetPasswordAsync(request);
 

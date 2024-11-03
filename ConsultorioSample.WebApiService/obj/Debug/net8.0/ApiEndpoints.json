@@ -422,7 +422,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Consultorio.Models.Users.GenerateTokenToResetPassword",
+        "Type": "Consultorio.Models.Users.GenerateTokenToDtoRequest",
         "IsRequired": true
       }
     ],

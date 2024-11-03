@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Consultorio.Models.Users
 {
-    public class GenerateTokenToResetPassword
+    public class DesableTwoFactorAuthDtoRequest
     {
         public string Usuario { get; set; } = default!;
         public string Email { get; set; } = default!;

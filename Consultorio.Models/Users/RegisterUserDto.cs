@@ -26,5 +26,6 @@ namespace Consultorio.Models.Users
         [Display(Name = "Confirm password")]
         [Compare(nameof(Password),ErrorMessage = "The password and confirmation password do not match")]
         public string ConfirmPassword { get; set; } = default!;
+        public string UserRoleId { get; set; } = default!;
     }
 }

@@ -63,6 +63,8 @@ builder.Services.AddIdentity<ConsultorioUser,IdentityRole>(policies =>
     policies.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
     policies.Lockout.MaxFailedAccessAttempts = 5;
 
+    
+
 })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
@@ -84,7 +86,7 @@ builder.Services.AddAuthentication(x =>
         ValidateIssuerSigningKey = true,
         ValidIssuer = builder.Configuration["Jwt:Emisor"],
         ValidAudience = builder.Configuration["Jwt:localhost"],
-        IssuerSigningKey = new SymmetricSecurityKey(secretKey)
+        IssuerSigningKey = new SymmetricSecurityKey(secretKey),
     };
 });
 
